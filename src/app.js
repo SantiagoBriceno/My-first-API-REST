@@ -4,9 +4,7 @@ import rutaIndex from './routes/index.routes.js';
 
 const app = express();
 app.use(express.json());
-
 //SERVIDOR ELEMENTAL
-
 app.use('/api',rutaEmpleados);
 app.use(rutaIndex);
 app.use((req, res, next)=>{
