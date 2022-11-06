@@ -6,7 +6,6 @@ import {
     DB_USER,
     DB_PASSWORD
 } from './config.js';
-
 //Equivalente a Create conection PARA DESARROLLO
 export const pool = createPool({
     host: DB_HOST,
