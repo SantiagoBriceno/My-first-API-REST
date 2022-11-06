@@ -81,7 +81,6 @@ export const updateEmpleados = async (req, res) => {
     });
   }
 };
-
 export const deleteEmpleados = async (req, res) => {
   try {
     const [result] = await pool.query(
