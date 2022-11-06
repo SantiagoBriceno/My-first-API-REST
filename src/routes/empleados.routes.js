@@ -1,6 +1,5 @@
 import {Router} from 'express';
 import {getEmpleados, updateEmpleados, createEmpleados, deleteEmpleados, getEmpleado} from '../controllers/empleados.controllers.js'
-
 const router = Router();
 
 router.get('/empleados', getEmpleados);
